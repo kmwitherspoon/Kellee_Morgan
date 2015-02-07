@@ -1,0 +1,489 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+*{margin:0;padding:0;}
+
+a {
+	color: white;
+} 
+
+@media screen and (max-width: 959px) {
+
+
+.navigation {
+	text-align: center;
+    width: 100%;
+}
+
+.navigation {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav li {
+    color: white;
+    font-size: 16px;
+}
+
+.horizontal-nav li {
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Serif",serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.right {
+	display: none;
+}
+
+.name {
+	font-size: 24px;
+	width: 253px;
+	height: 87px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+}
+
+.namedefiner{
+	font-size: 16px;
+	width: 253px;
+	height: 87px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 5px;
+}
+
+header p.description {
+	font-size: 100px;
+	padding-top: 170px;
+	text-align: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+} 
+
+header {
+	background: url('../images/Header4.jpg') no-repeat center;
+	background-size: cover;
+	font-size: 38px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	opacity: 0.9;
+	height: 100vh;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+nav {
+	z-index: 1;
+	padding: 25px 0;
+	word-spacing: 26px;
+	background: #99AFB6;
+	opacity: 0.9;
+	text-decoration: none;
+	transition: box-shadow 400ms;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+	background-color: #5E8897;
+	background-size: cover;
+	height: 400px;
+	max-width: none;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	max-height: none;
+	text-align: center;
+}
+
+footer h1 {
+	font-size: 42px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+footer p {
+	font-size: 26px;
+	overflow: hidden;
+    word-wrap: break-word;
+}
+
+
+p .job a {
+	text-decoration: none;
+}
+
+
+#experience {
+	height: 600px;
+	padding: 100px 20px 50px 20px;
+}
+
+div .about_me {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+#me {
+	background: url('../images/114H.jpg') no-repeat center;
+	background-size: cover;
+	padding-bottom: 50px;
+	opacity: 0.7;
+	margin: 0;
+	max-width: none;
+	padding: 50px 20px 50px 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.social-icons li {
+	color: white;
+	font-size: 45px;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+}
+
+ul li .linkedin {
+	float: left;
+	text-decoration: none;
+}
+
+ul li .facebook {
+	float: right;
+	text-decoration: none;
+}
+
+.social-emojis li {
+	color: #5E8897;
+	font-size: 200px;
+	display: inline-block;
+	list-style: none;
+	padding-top: 100px;
+	padding-left: 100px;
+	text-decoration: none;
+}
+
+.social-emojis ul li .jq {
+	float: right;
+	text-decoration: none; 
+	width: 256px;
+	height: 256px;
+	padding-bottom: 100px;
+}
+
+.social-emojis ul li .html5 {
+	float: left;
+	padding-left: 200px;
+	padding-right: 50px;
+	text-decoration: none;
+}
+
+.social-emojis ul li .css3 {
+	padding-left: 100px;
+	text-decoration: none;
+}
+
+.aboutme {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.medescription {
+	font-size: 25px;
+}
+
+.meTitle {
+	word-spacing: normal;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+}
+
+@media screen and (min-width: 960px) {
+
+
+.clearfix {
+    clear:right;
+}
+
+.clearfix { display: inline-block; }
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "PT Serif",serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.name {
+	font-size: 24px;
+	width: 253px;
+	height: 87px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+}
+
+.namedefiner{
+	font-size: 16px;
+	width: 253px;
+	height: 87px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 5px;
+}
+
+.description {
+	font-size: 100px;
+	padding-top: 170px;
+	text-align: center;
+}
+
+header, nav {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+} 
+
+header {
+	background: url('../images/Header4.jpg') no-repeat center;
+	font-size: 38px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	opacity: 0.9;
+	height: 100vh;
+	display: table;
+	margin: 0;
+	max-width: none;
+	text-align: center;
+}
+
+nav {
+	z-index: 1;
+	margin-bottom: -72px; /* nav height */
+	padding: 25px 0;
+	word-spacing: 26px;
+	background: #99AFB6;
+	opacity: 0.9;
+	text-decoration: none;
+	transition: box-shadow 400ms;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+	background-color: #5E8897;
+	background-size: cover;
+	clear: both;
+	height: 400px;
+	color: white;
+	padding-right: 0px;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+footer h1 {
+	font-size: 42px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+footer p {
+	font-size: 26px;
+}
+
+
+p .job a {
+	text-decoration: none;
+}
+
+
+#experience {
+	background-color: #848484;
+	height: 600px;
+	padding: 100px 20px 50px 20px;
+}
+
+.social-icons li {
+	color: white;
+	font-size: 45px;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+}
+
+ul li .linkedin {
+	float: left;
+	text-decoration: none;
+}
+
+ul li .facebook {
+	float: right;
+	text-decoration: none;
+}
+
+
+.social-emojis li {
+	color: #5E8897;
+	font-size: 200px;
+	display: inline-block;
+	list-style: none;
+	padding-top: 100px;
+	padding-left: 100px;
+	text-decoration: none;
+}
+
+.social-emojis ul li .html5 {
+	float: right;
+	padding-right: 50px;
+	padding-left: 100px;
+	text-decoration: none;
+}
+
+.social-emojis ul li .css3 {
+	float: left;
+	padding-left: 100px;
+	text-decoration: none;
+}
+
+.social-emojis ul li .jq {
+	float: right;
+	text-decoration: none; 
+	padding-bottom: 4%;
+	padding-top: 3%;
+	width: 256px;
+	height: 256px;
+}
+
+
+h1.aboutme {
+	color: #778899;
+	font-size: 42px;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+h1.aboutme a {
+	color: #778899;
+}
+
+.medescription {
+	font-size: 25px;
+	padding-bottom: 1.4%;
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+
+
+.meTitle {
+	word-spacing: normal;
+}
+
+
+.left {
+	background-color: #E6E6E6;
+	background-size: cover;
+	color: #778899;
+	float: left;
+	padding: 0;
+	padding-left: 5%;
+	padding-top: 1%;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 50%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+section div .left {
+	background-color: #E6E6E6;
+	max-width: 200px;
+	word-wrap: break-word;
+}
+
+section .right {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+.right {
+	background-color: #E6E6E6;
+	float: right;
+	margin: 0px;
+	opacity: 0.7;
+	text-align: right;
+}
+
+#me {
+	background-color: #E6E6E6;
+}
+}
