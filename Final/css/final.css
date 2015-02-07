@@ -91,7 +91,7 @@ header {
 } 
 
 header {
-	background: url('../images/Header4.jpg') no-repeat center;
+	background: url('../Images/Header4.jpg') no-repeat center;
 	background-size: cover;
 	font-size: 38px;
 	font-weight: 300;
@@ -166,7 +166,7 @@ div .about_me {
 }
 
 #me {
-	background: url('../images/114H.jpg') no-repeat center;
+	background: url('../Images/114H.jpg') no-repeat center;
 	background-size: cover;
 	padding-bottom: 50px;
 	opacity: 0.7;
@@ -307,7 +307,7 @@ header, nav {
 } 
 
 header {
-	background: url('../images/Header4.jpg') no-repeat center;
+	background: url('../Images/Header4.jpg') no-repeat center;
 	font-size: 38px;
 	font-weight: 300;
 	letter-spacing: 2px;
